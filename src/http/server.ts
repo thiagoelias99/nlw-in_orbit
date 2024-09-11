@@ -2,6 +2,7 @@ import fastify from "fastify"
 import { createGoal } from '../features/create-goal'
 import { serializerCompiler, validatorCompiler, type ZodTypeProvider } from "fastify-type-provider-zod";
 import z from "zod";
+import { getWeekPendingGoals } from '../features/get-week-pending-goals';
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -25,6 +26,12 @@ app.post('/goals', {
       desiredWeeklyFrequency
     })
   })
+
+app.get('/pending-goals', async () => {
+  const { pendingGoals } = await getWeekPendingGoals()
+
+  return { pendingGoals }
+})
 
 app.listen({
   port: 3333
