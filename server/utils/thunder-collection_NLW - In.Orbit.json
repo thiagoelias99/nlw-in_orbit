@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "NLW - In.Orbit",
+    "collectionId": "661b8576-e63f-4a75-badd-30540a385bac",
+    "dateExported": "2024-09-12T16:19:26.446Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4cf2e6bc-630f-4983-8f16-2bde2ff81777",
+            "colId": "661b8576-e63f-4a75-badd-30540a385bac",
+            "containerId": "",
+            "name": "Create goal",
+            "url": "http://localhost:3333/goals",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-11T16:07:42.951Z",
+            "modified": "2024-09-12T16:18:56.265Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Sleep\",\n  \"desiredWeeklyFrequency\": 7\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e52d6971-11f3-419b-8dd8-10c8f2df4987",
+            "colId": "661b8576-e63f-4a75-badd-30540a385bac",
+            "containerId": "",
+            "name": "Pending goals",
+            "url": "http://localhost:3333/pending-goals",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-11T16:56:09.751Z",
+            "modified": "2024-09-11T16:56:36.655Z",
+            "headers": []
+        },
+        {
+            "_id": "c5f2168e-24c6-44af-9806-edec08b595e6",
+            "colId": "661b8576-e63f-4a75-badd-30540a385bac",
+            "containerId": "",
+            "name": "Complete goal",
+            "url": "http://localhost:3333/completions",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-11T17:21:13.308Z",
+            "modified": "2024-09-11T17:22:19.963Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"goalId\": \"pddmv4daynft4039tzx31eni\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "beac5fb4-3ff9-4d06-a0c5-727db4fe3f76",
+            "colId": "661b8576-e63f-4a75-badd-30540a385bac",
+            "containerId": "",
+            "name": "Summary",
+            "url": "http://localhost:3333/summary",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-12T11:29:27.156Z",
+            "modified": "2024-09-12T11:29:40.200Z",
+            "headers": []
+        }
+    ],
+    "ref": "_lp66hEMcB7ijp_O8GsoeMLSWrl7SlLCliJTAsBtiGL-OBW51geH8f_JyPv6l92L98241OGEyKTHCKWgw99A9w"
+}

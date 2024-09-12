@@ -1,4 +1,4 @@
-<h1 align="center">NLW - In.Orbit - Vite Frontend</h1> 
+<h1 align="center">NLW - In.Orbit</h1> 
 
 <p align="center">
 <a href="https://vitejs.dev/">
@@ -22,24 +22,31 @@
 <a href="https://react-hook-form.com/">
   <img src="https://img.shields.io/badge/React%20Hook%20Form-000000?style=for-the-badge&logo=reacthookform&logoColor=ec5990" />
 </a>
+<a href="https://nodejs.org/">
+  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=339933" />
+</a>
+<a href="https://www.fastify.io/">
+  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" />
+</a>
+<a href="https://www.postgresql.org/">
+  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=336791" />
+</a>
+<a href="https://www.docker.com/">
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=2496ED" />
+</a>
 </p>
 
 ### Introduction
-This app was proposed in a NLW event from [RocketSeat](https://www.rocketseat.com.br/) and its objective is to develop an application where a user can register and track goals. 
+This app was proposed in a NLW event from [RocketSeat](https://www.rocketseat.com.br/) and its objective is to develop an application where a user can register and track goals.   
 
 ### User Interface
 - [Figma](https://www.figma.com/community/file/1415093862269754302)
 
-### Installation
-#### Pre-Requisites
-- [NodeJs](https://nodejs.org/en) version 20 or greater.
+### Server
+A node.js REST server built with fastify.
 
-#### Installation
-- Download or clone this repository.
-1. Run cmd `npm install` to install node files.
+### Web
+A user interface built with Vite.js
 
-#### Running the server
-1. First start the application [server](https://github.com/thiagoelias99/nlw-in_orbit/tree/main/server).
-
-#### Running this application in development mode
-1. Run cmd `npm run dev` to start in development mode.
+### Terminal
+A simple node.js terminal application.
