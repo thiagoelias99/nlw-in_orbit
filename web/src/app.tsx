@@ -1,6 +1,15 @@
-export function App() {
+import { Dialog } from './components/ui/dialog'
+import { CreateGoal } from './components/create-goal'
+import { Summary } from './components/summary'
+// import { EmptyGoals } from './components/empty-goals'
 
+export function App() {
   return (
-    <h1 className='bg-red-500'>Hello</h1>
+    <Dialog>
+      {/* <EmptyGoals /> */}
+      <Summary />
+
+      <CreateGoal />
+    </Dialog>
   )
 }
